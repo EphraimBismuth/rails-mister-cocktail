@@ -1,0 +1,7 @@
+<h1>Add a dose to your cocktail</h1>
+<%= render 'form', cocktail: @cocktail, dose: @dose %>
+
+<hr>
+<%= link_to cocktail_path(@cocktail) do %>
+  <i class="fa fa-history"></i> Back to the cocktail
+<% end %>
